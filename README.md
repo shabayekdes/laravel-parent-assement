@@ -66,13 +66,13 @@ class DtoUserY extends DtoUser
     public function __construct(array $json)
     {
         $status = $this->getStatus($json['statusCode']);
-        parent::__construct('DataProviderX', $status->value, $json['parentAmount'], $json);
+        parent::__construct('DataProviderY', $status->value, $json['parentAmount'], $json);
     }
     // ...
 }
 ```
 
-- add method get status and you can use enum class called **StatusLabel** to map status value with three status
+- add method get status, you can use enum class called **StatusLabel** to map status value with three status
 
 ```php
 
@@ -108,3 +108,11 @@ return [
     ],
 ];
 ```
+
+#### Feel Free to Contact Me:
+
+If you have any questions or need further information about this project or my qualifications, 
+please don't hesitate to reach out. I'm available for discussions and would be glad to provide additional insights. 
+You can contact me via email at [esmail.shabayek@gmail.com](mailto:esmail.shabayek@gmail.com). 
+Thank you for considering my application.
+
